@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(https://media.istockphoto.com/id/1017296544/photo/testing-software.jpg?s=612x612&w=0&k=20&c=9K02VDBeVtaLCThLojKphZpZ6x8o7DUi3UQ4r1tTmQU=));
+        height: max-content;
+    }
+    .header {
+        background-color: lightslategray;
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    .intro {
+        padding-bottom: 20px;
+        margin-right: 20px;
+        max-width: 50%;
+    }
+    .skills {
+        flex-grow: 1;
+        padding: 20px;
+        border-radius: 4px;
+        border-color: black;
+    }
+    .skills ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .skills li {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 300px;
+    }
+    .contact {
+        background-color: lightblue;
+        padding: 20px;
+        color: black;
+        text-align: center;
+    }
+    @media only screen and (max-width: 600px) {
+        .content {
+            flex-direction: column;
+            align-items: center;
+        }
+        .intro, .skills {
+            max-width: 100%;
+            margin: 0;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header class="header">
+    <h1>Griffins K.T.L</h1>
+</header>
+
+<div class="content">
+    <section class="intro">
+        <h2>Introduction</h2>
+        <p>Hello, I'm Griffins, a Fullstack Web developer. A passionate young man in web development and designing of mobile apps</p>
+        <img src="./gyy.jpg" alt="Young web developer"/>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ol>
+            <li>Natural Language Processing</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Web Development</li>
+            <li>Data Analysis</li>
+        </ol>
+    </section>
+</div>
+
+<section class="contact">
+    <h2>Contact Information</h2>
+    <p>Email: griffinstanui14@com</p>
+    <p>Social Media:
+        <a href="www.twitter.com">Twitter</a> |
+        <a href="www.linkedin.com">LinkedIn</a> |
+        <a href="www.github.com/Griffins2005">GitHub</a>
+    </p>
+</section>
+
+</body>
+</html>
